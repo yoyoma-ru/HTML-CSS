@@ -4,6 +4,58 @@
 	box-sizing: border-box;
 }
 
+.main-visual{
+	height: 400px;
+	width: 100%;
+	background-image: url(chapter7/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.headline{
+	padding: 20px;
+	/*指定が一つの場合、どこに対して幅をとるっけ？*/
+}
+
+main{
+	width: 840px;
+	margin: 50px auto;　/* autoにすることで横幅は中央寄せになる*/
+}
+
+.service1{
+	margin-bottom: 30px;
+	/*service1のborder-bottomから下の余白に対しての指定*/
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+	/*service1の文字コンテンツから下に対する余白の指定*/
+}
+
+.service2{
+	margin-bottom: 30px;
+	border-bottom: 1px solid#d1d1d1;
+	padding-bottom: 30px;
+}
+
+.service3{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service4{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+
+
+/* 自作プログラミング
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 main{
 	width: 100%;
 	height: 1400px;
@@ -23,9 +75,11 @@ main{
 	font-size: 20px;
 	font-weight: bold;
 }
+.blog-box{
+}
 .blog-item{
 	width: 840px;
-	padding: 50px 0 0 30px;
 	position: center;
 	background-color: limegreen;
 }
+*/
